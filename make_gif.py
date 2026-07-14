@@ -43,5 +43,5 @@ def draw(en_v,it_v,show):
     return img
 frames=[draw(EN*ease(i/34),IT*ease(i/34),False) for i in range(35)]
 frames+=[draw(EN,IT,False)]*10 + [draw(EN,IT,True)]*28
-frames[0].save("token-cost-en-vs-it.gif",save_all=True,append_images=frames[1:],duration=60,loop=0,disposal=2)
+frames[0].save("token-cost-en-vs-it.gif",save_all=True,append_images=frames[1:],duration=60,disposal=2)
 print(f"EN={EN} IT={IT} (+{delta:.0f}%) -> token-cost-en-vs-it.gif")
