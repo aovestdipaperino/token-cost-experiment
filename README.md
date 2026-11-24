@@ -1,5 +1,7 @@
 # Token cost: the same task in English vs Italian
 
+[![GitHub stars](https://img.shields.io/github/stars/aovestdipaperino/token-cost-experiment?logo=github&color=brightgreen)](https://github.com/aovestdipaperino/token-cost-experiment/stargazers)
+
 A tiny, reproducible experiment behind a simple claim: **LLMs bill per token, and the
 same meaning costs a different number of tokens per language — English is usually the
 cheapest.** We ask Claude Code to do the *identical* task once in English and once in
